@@ -1,0 +1,15 @@
+<div class="donut-info-card">
+  <img src="{{ displayDonut.photo }}" alt="donut" />
+  <h1>{{ displayDonut.name }}</h1>
+  <button (click)="addToCart()">Add to Cart</button>
+  <p>Calories: {{ displayDonut.calories }}</p>
+  <p>Extras:</p>
+  <ul>
+    <li *ngFor="let e of displayDonut.extras">
+      {{ e }}
+    </li>
+  </ul>
+</div>
+<p style="text-align: center; font-size: 0.6rem">
+  <strong>Photo Attribution: </strong>{{ displayDonut.photo_attribution }}
+</p>

@@ -1,0 +1,35 @@
+.donut-info-card {
+  background: rgb(65, 81, 81);
+  font-family: "Montserrat", sans-serif;
+  font-family: "Mukta", sans-serif;
+  font-family: "Puritan", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(217, 206, 54);
+  border: solid rgb(217, 206, 54) 3px;
+  font-size: 0.7rem;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  width: 200px;
+  margin: 75px auto;
+}
+
+.donut-info-card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.donut-info-card button {
+  padding: 10px;
+  border: none;
+  border-radius: 999px;
+  width: 100px;
+  background: rgb(217, 206, 54);
+}
+
+.donut-info-card button:hover {
+  cursor: pointer;
+}
